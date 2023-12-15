@@ -1,8 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 import Head from '../component/header/Head';
-import ListProduct from '../component/product/listProduct';
 import Footer from '../component/footer/Footer';
+import ListProduct from '../component/product/ListProduct'
 
 
 let getproduct=async()=>{
