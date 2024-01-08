@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const Search = () => {
   const [keyword,setkeyword]=useState(' ')
-  console.log("keyword",keyword)
+  //console.log("keyword",keyword)
   return (
     <>
       <form className="flex flex-nowrap items-center w-full order-last md:order-none mt-5 md:mt-0 md:w-2/4 lg:w-2/4">
@@ -17,7 +17,7 @@ const Search = () => {
         />
         <button
           type="button"
-          className="px-4 py-2 inline-block text-white border border-transparent bg-blue-600 text-white rounded-md hover:bg-blue-700"
+          className="px-4 py-2 inline-block text-white border border-transparent bg-blue-600 rounded-md hover:bg-blue-700"
         >
           Search
         </button>
